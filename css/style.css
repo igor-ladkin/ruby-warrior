@@ -1,0 +1,39 @@
+body {
+	font-family: 'Play', sans-serif;
+	font-weight: 400;
+}
+h4 {
+	font-size: 20px;
+}
+hr {
+	border-width: 3px;
+}
+a {
+	font-family: 'Josefin Slab', serif;
+	font-size: 16px; 
+}
+
+.text-muted {
+	color: #797676;
+}
+.text-thick {
+	font-weight: 700;
+}
+
+.title-super {
+	font-size: 75px;
+	margin-top: 75px;
+}
+.title-logo {
+	margin-top: 20px;
+}
+
+.desaturate  {
+	filter: url(desaturate.svg#filter);
+  filter: gray;
+  -webkit-filter: grayscale(1); 
+}
+.desaturate:hover {
+	filter: none;
+  -webkit-filter: grayscale(0);
+}
